@@ -1,0 +1,40 @@
+# Terraform files
+Environment\ Setup/7-Terraform.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfbackup
+.terraform.lock.hcl
+
+**/.terraform/providers/**
+
+# Local terraform directories
+**/.terraform/*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# State backup files
+*.tfstate.backup
+
+# Local environment files
+.env
+.env.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python related (since I see a python container directory)
+__pycache__/
+*.py[cod]
+*.so
+venv/
+env/
+
+# PostgreSQL related (since I see a postgres directory)
+*.dump
+*.sql
