@@ -78,7 +78,7 @@ services:
   postgres_local:
     image: postgres
     volumes:
-      - postgres-local-data:/var/lib/postgresql/data
+      - postgres-data:/var/lib/postgresql/data
     environment:
       POSTGRES_DB: ny_taxi
       POSTGRES_USER: root
